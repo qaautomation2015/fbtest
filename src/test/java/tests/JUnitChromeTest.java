@@ -45,12 +45,14 @@ public class JUnitChromeTest {
         MainPage.postMessage(driver, Data.postedMessage);
     }
 
+    @Ignore
     @Test
     public void bTestCheckPostedMessageOnProfilePage() throws InterruptedException, AWTException {
         UserProfilePage.open(driver);
         Assert.assertTrue(driver.findElement(By.xpath(UserProfilePage.UPROFILE_FIRST_POST_TEXT)).getText().contains(Data.postedMessage));
     }
 
+    @Ignore
     @Test
     public void cTestCheckPostedMessageByFriend() throws InterruptedException, AWTException {
         MainPage.signOut(driver);

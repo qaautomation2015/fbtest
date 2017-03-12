@@ -19,3 +19,7 @@ Estimated date to complete task:
 
     qaautomation2015
     test.automation.qa2015@gmail.com
+
+    Improve Areas
+     - remove all thread.sleep and write correct wait functions
+     - FindBy? Static

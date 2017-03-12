@@ -6,7 +6,7 @@ import utils.Data;
 public class UserProfilePage {
     public final static String UPROFILE_MENU = "//div[@role='navigation']/div[1]/div[1]/div[1]/a[1]/span";
     public final static String UPROFILE_FRIENDS_LINK = "//a[@data-tab-key='friends']";
-    public final static String UPROFILE_FIRST_POST_TEXT = "(//div[@role='article']/div[1]/div[4]/p)[1]";
+    public final static String UPROFILE_FIRST_POST_TEXT = "(//div[@role='article'])[1]/div[1]/div[3]/div[2]/div";
     public final static String UPROFILE_FIRST_POST_MENU = "(//div[@role='article']/div[1]/div[1]/div[1]/a)[1]";
     public final static String UPROFILE_DELETE_POST_LINK = "//li[@data-feed-option-name='FeedDeleteOption']";
     public final static String UPROFILE_DELETE_POST_CONFIRM = "//div[@role='dialog']/descendant::button[@type='submit']";
