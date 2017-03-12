@@ -1,0 +1,21 @@
+Practical Task.
+Application/System Under Test:
+
+    Facebook
+
+Feature to test:
+
+    Test ability to post status update for single user.
+
+Test cases:
+
+    Ability for User to post new status update.
+    User can inspect his/her posted status update on User profile page.
+    Friend can observe posted status update from User
+
+Estimated date to complete task:
+
+    14.06.2016
+
+    qaautomation2015
+    test.automation.qa2015@gmail.com
